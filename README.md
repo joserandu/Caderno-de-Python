@@ -1,5 +1,4 @@
 <h1 color="red">Caderno de Python</h1>
-<hr>
 
 <h3>Sobre as pastas</h3>
 
