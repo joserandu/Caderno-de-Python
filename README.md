@@ -27,14 +27,14 @@
 
 <hr>
 
-<h3>Sobre as aulas</h3>
+<h3>About Classes</h3>
 
 <p>At the end of each topic, 3 exercises were solved to fix the content, totaling more than 120 exercises solved and revised. As for annotations, it is necessary to use "run" to be able to understand what is being executed in the class code, because in each example the result is printed to exemplify the matter.</p>
 <p>The way I adapted to organize the printout resulting from the code, in order to make it easier for the reader to find it, is by drawing lines of the same size after each title, leaving the part at the end of them most important of the example adopted in the following lines, which, I believe, is didactic, intuitive, better memorized and, finally, aesthetically pleasing.</p>
 
 <hr>
 
-<h3>Sobre os Exercícios</h3>
+<h3>About the Exercises</h3>
 
 <p>The exercises are aimed at fixing the content itself, there is no complex system at the end of any class. I will leave these large projects to post individually here on GitHub, except those proposed at the end of the course. The exercises that are solved in these codes were created by ChatGPT, no exercise contained so far is exclusive to the course. To prepare these exercises, I sent the notes to this Artificial Intelligence and asked for 3 fixation exercises. This is how I achieved my practice in each of the topics covered here and that I will achieve in those that are yet to come. I still intend to put a 4 more difficult exercise as a challenge at the end of each class, however, I will leave this plan until the end of the course.</p>
 
