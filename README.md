@@ -1,3 +1,5 @@
+![1_ycIMlwgwicqlO6PcFRA-Iw](https://github.com/joserandu/Caderno-de-Python/assets/134299499/6d042e08-2824-41d8-931e-84688ca671f9) 
+
 <h1 color="red">Caderno de Python 🟢🟡🔵</h1>
 
 <h3>Sobre as pastas</h3>
