@@ -13,9 +13,11 @@ Em muitos casos a gente usa a função print para descobrir onde está os erros.
 
 import pdb
 
+print('Jeito não aconselhável de debugar erros ----------------------------------------------------print(f"{a} e {b}")')
+
 
 def dividir(a, b):
-    print(f'a={a}, b={b}')
+    print(f'a={a}, b={b}')  
     try:
         return int(a) / int(b)
     except (ValueError, ZeroDivisionError) as err:
@@ -26,13 +28,12 @@ def dividir(a, b):
 
 print(dividir(4, 7))
 
-
 """
 Essa é uma prática ruim para debugar, existem formas mais profissionais de se fazer esse debug, utilizando o debugger 
 em Python. Podemos fazer isso em diferentes IDEs, como o Pycharm ou utilizando o PDB - Python Debugger.
 """
 
-print('Exemplo com o Pycharm ---------------------------')
+print('Exemplo com o Pycharm --------------------------------------------------------<marca linha e clica na mariposa>')
 
 
 def dividir(a, b):
@@ -59,7 +60,11 @@ Se voce selecionar: int(a) / int(b) -> BD -> Watches
     Isso vai mostrar o valor da divisão.
 
 Podemos colocar mais pontos de parada
+"""
 
+print('Quando não estamos editando com o pycharm ----------------------------------------import pdb / pdb.set_trance()')
+
+"""
 No Pycharm é o mais indicado, mas, por vezes, não estamos usando o pycharm, para isso utilizamos o Python 
 Debugger (PDB).
 
@@ -125,9 +130,9 @@ Cuidado com os conflitos entre nomes de variáveis e os comandos do PDB.
 """
 
 
-def soma(l, n, p, c):
+def soma(l1, n, p, c):
     breakpoint()
-    return l + n + p + c
+    return l1 + n + p + c
 
 
 print(soma(1, 3, 5, 7))
