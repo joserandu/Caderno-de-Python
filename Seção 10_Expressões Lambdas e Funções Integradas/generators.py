@@ -149,3 +149,4 @@ resultado_generator = multiplicacao_infinita(3)
 
 for resultado in resultado_generator:
     print(resultado)
+ 
