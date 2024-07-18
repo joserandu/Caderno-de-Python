@@ -25,10 +25,14 @@ print('Função lambda dentro de uma variável ---------------------------------
 """
 Eu comentei tudo que está a frente porque o jeito no qual foi utilizado os lambdas em aula é errôneo e é apenas 
 <<<<<<< HEAD
+<<<<<<< HEAD
 aproveitavel dessa parte o aprendizado da sintaxe, por isso não exclui essa parte da aula.
 =======
 aproveitavel dessa parte o aprendizado da semantica, por isso não exclui essa parte da aula.
 >>>>>>> 8db86c2 (Venv)
+=======
+aproveitavel dessa parte o aprendizado da sintaxe, por isso não exclui essa parte da aula.
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
 """
 
 """
@@ -40,10 +44,14 @@ print(calculo(25))
 
 Perceba como o Lambda é essencialmente uma função anônima: Ao igualarmos o lambda à uma variável, 
 <<<<<<< HEAD
+<<<<<<< HEAD
 estamos indiretamente dando nome à função, ou seja, você está inflinjindo a PEP8, mas o código roda nomalmente. 
 =======
 estamos indiretamente dando nome à função, ou seja, você está infrinjindo a PEP8, mas o código roda nomalmente. 
 >>>>>>> 8db86c2 (Venv)
+=======
+estamos indiretamente dando nome à função, ou seja, você está inflinjindo a PEP8, mas o código roda nomalmente. 
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
 
 
 print('Expressões lambdas igualadas a variáveis com multiplas entradas --------------------------------lambda x, y, z:')
@@ -69,17 +77,23 @@ print(tres(3, 6, 9))
 - Para o azar da pureza desse código que eu sempre presei antes de subi-lo para o github, meu professor insistiu nesses 
 exemplos nos quais ele iguala funções lambda à variáveis.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
 - Lembre-se das primeiras aulas o .strip() serve para tirar os espaços. Lembra-se de striptease.
 - .title() serve para deixar a primeira letra maiúscula.
 - Em funções Python podemos ter nenhuma ou várias entradas. Em Lambdas também. Mas se passarmos mais argumentos do 
 que parametros teremos um TypeError.
 
+<<<<<<< HEAD
 =======
 - Lembre-se das primeiras aulas o .strip() serve para tirar os espaços. Lembre-se de striptease.
 - .title() serve para deixar a primeira letra maiúscula.
 - Em funções Python podemos ter nenhuma ou várias entradas. Em Lambdas também. Mas se passarmos mais argumentos do 
 que parametros teremos um TypeError.
 >>>>>>> 8db86c2 (Venv)
+=======
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
 """
 
 print('Funções lambdas para trabalhar com nomes -----------------------.sort(key=lambda: sobrenome.split(" ").lower())')
@@ -174,6 +188,7 @@ lambda com a função sorted para ordenar a lista pelo último nome em ordem alf
 nomes = ['Alice Silva', 'Bob Souza', 'Carlos Lima', 'Daniel Rocha']
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 nomes_ordenados = sorted(nomes, key=lambda nome: nome.split(' ')[-1].lower())
 
 print(nomes_ordenados)
@@ -191,3 +206,8 @@ print(nomes_ordenados)
 A função sorted também será estudada mais adiante.
 """
 >>>>>>> 8db86c2 (Venv)
+=======
+nomes_ordenados = sorted(nomes, key=lambda nome: nome.split(' ')[-1].lower())
+
+print(nomes_ordenados)
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61

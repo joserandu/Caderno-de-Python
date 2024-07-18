@@ -95,10 +95,14 @@ adivinhou = False
 print("Bem-vindo ao jogo de adivinhação!")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 while not adivinhou:
 =======
 while adivinhou is False:
 >>>>>>> 8db86c2 (Venv)
+=======
+while not adivinhou:
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
     tentativa = int(input("Tente adivinhar o número (ou digite 'sair' para sair): "))
 
     if tentativa == numero_secreto:

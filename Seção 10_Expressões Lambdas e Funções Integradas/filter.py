@@ -15,10 +15,14 @@ media = sum(valores) / len(valores)
 print(media)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 print('Filtrando valores acima da média --------------------------------------------filter(lambda x: x > media, dados)')
 =======
 print('Tirando a média dos dados com a biblioteca statistics -----------------------------------statistics.mean(dados)')
 >>>>>>> 8db86c2 (Venv)
+=======
+print('Filtrando valores acima da média --------------------------------------------filter(lambda x: x > media, dados)')
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
 
 # Dados coletados
 dados = [1.3, 2.7, 0.8, 4.1, 4.3, -0.1]
@@ -28,10 +32,13 @@ media2 = statistics.mean(dados)
 print(f'Media: {media2}')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 print('Filtrando valores acima da média --------------------------------------------filter(lambda x: x > media, dados)')
 
 >>>>>>> 8db86c2 (Venv)
+=======
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
 res = filter(lambda x: x > media2, dados)
 
 print(f'Os valores acima da média são: {list(res)}')
@@ -40,9 +47,12 @@ print(f'Os valores acima da média são: {list(res)}')
 Assim como a função map(), a filter() recebe dois parâmetros, sendo uma função e um iterável.
 A função lambda na l26 é uma função anônima padrão com retorno.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Não esqueça da função list() para listar os valores.
 >>>>>>> 8db86c2 (Venv)
+=======
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
 
 Usar a biblioteca statistics é bom ao passo que é uma biblioteca pequena e não atrapalha na velocidade de reprodução 
 do código. Pode usar para coisas simples.
@@ -197,11 +207,14 @@ numeros_pares = filter(lambda n: n % 2 != 1, numeros)
 print(list(map(lambda x: x ** 2, numeros_pares)))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Em uma linha
 print(list(map(lambda x: x ** 2, filter(lambda n: n % 2 != 1, numeros))))
 
 >>>>>>> 8db86c2 (Venv)
+=======
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
 print('Exercício 2 -------------filter(lambda quadrado_da_idade: quadrado_da_idade[`idade`] ** 2, quadrado_das_idades)')
 
 """
@@ -238,6 +251,7 @@ quadrado_das_idades = list(map(lambda quadrado_da_idade: quadrado_da_idade['idad
 print(maiores_de_idade)
 print(quadrado_das_idades)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 # Em uma linha:
@@ -261,3 +275,5 @@ cidades = ['São Paulo', 'Salvador', 'Rio de Janeiro', 'Santos', 'Curitiba', 'Re
 
 print(list(filter(lambda cidade: cidade[0] == 'S' and len(cidade) > 5, cidades)))
 >>>>>>> 8db86c2 (Venv)
+=======
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61

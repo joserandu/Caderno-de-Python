@@ -150,6 +150,10 @@ resultado_generator = multiplicacao_infinita(3)
 for resultado in resultado_generator:
     print(resultado)
 <<<<<<< HEAD
+<<<<<<< HEAD
  
 =======
 >>>>>>> 8db86c2 (Venv)
+=======
+ 
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61

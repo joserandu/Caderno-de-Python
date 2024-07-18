@@ -34,10 +34,14 @@ Perceba que nenhum valor é repetido e a ordem das letras é alterada aleatória
 """
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 print('Exercício 1 -----------------')
 =======
 print('Exercício 1 --------------------------------------------------{num for num in range(1, 20 + 1) if num % 2 == 0}')
 >>>>>>> 8db86c2 (Venv)
+=======
+print('Exercício 1 -----------------')
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
 
 """
 Compreensão de Conjuntos com Condições
@@ -49,10 +53,14 @@ conjunto1 = {num for num in range(1, 20 + 1) if num % 2 == 0}
 print(conjunto1)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 print('Exercício 2 --------------------')
 =======
 print('Exercício 2 -------------------------------------------------{num ** 2 for num in range(1, 16) if num % 2 != 0}')
 >>>>>>> 8db86c2 (Venv)
+=======
+print('Exercício 2 --------------------')
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
 
 """
 Compreensão de Conjuntos com Transformação
@@ -64,10 +72,14 @@ conjunto2 = {num ** 2 for num in range(1, 16) if num % 2 != 0}
 print(conjunto2)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 print('Exercício 3 ----------------------')
 =======
 print('Exercício 3 ---------------------------------------{letra for letra in set(string) if letra.lower() in "aeiou"}')
 >>>>>>> 8db86c2 (Venv)
+=======
+print('Exercício 3 ----------------------')
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
 
 """
 Compreensão de Conjuntos com Strings
