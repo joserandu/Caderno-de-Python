@@ -4,6 +4,7 @@ SISTEMAS DE ARQUIVOS - MANIPULAÇÃO
 
 """
 import os
+from send2trash import send2trash
 
 print("Descobrindo se um arquivo ou diretório existe ------------------------------")
 
@@ -62,8 +63,7 @@ print("Renomeando arquivos -----------------------------------")
 # Renomeando arquivo
 # os.rename('Templates\\geek\\teste2.txt', "geek/teste3.txt")
 
-
-print("Deletando arquivos -------------------------------")
+print("Deletando arquivos ---------------------------------------------------------------------------------os.remove()")
 
 """
 ATENÇÃO:
@@ -74,7 +74,9 @@ ATENÇÃO:
 - Se informar um diretório ao invés de um arquivo, teremos um IsADirectoryError
 """
 
-# os.remove("geek.txt)  # Não removi, somente exemplifiquei.
+# os.remove("geek.txt")  # Não removi, somente exemplifiquei.
+
+print("Deletando Diretórios vazios -------------------------------------------------------------------------os.rmdir()")
 
 # Removendo diretórios vazios:
 # os.rmdir('Templates\\geek\\university')
@@ -83,3 +85,40 @@ ATENÇÃO:
 Se não extiver vazio: OSError
 Se não existir: FileNotFoundError
 """
+
+print("Deletando uma árvore de diretórios ------------------------------------------------------------------os.rmdir()")
+
+"""
+for arquivo in os.scandir('geek'):
+    if arquivo.is_file():
+        os.remove(arquivo.path)
+    if not arquivo.is_file():
+        os.rmdir(arquivo.path)
+        
+# Isso vai excluir todos os arquivos de dentro do diretório geek.
+"""
+
+print("Remover uma árvore de diretórios vazios -------------------------------------------")
+
+# os.removedirs("geek2\\outro\\mais")
+
+"""
+Esses diretórios não existem, estou só exemplificando
+
+Se algum dos diretórios tiver arquivos ou outros diretórios o processo para.
+
+Ao remover arquivos e diretórios com Python eles não vão para a lixeira, eles desapareçem.
+"""
+
+# pip install send2trash
+
+print("Usando send2trash -----------------------------")
+
+"""
+Os arquivos e diretórios não somem, eles podem ser recuperados. "enviar para a lixeira".
+Se o arquivo não existir teremos OSError.
+
+send2trash('cesta2.txt')
+"""
+
+
