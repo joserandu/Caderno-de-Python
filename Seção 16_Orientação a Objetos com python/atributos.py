@@ -219,7 +219,15 @@ del produto2.peso  # Atributo dinâmico
 print(produto1.__dict__)  # Perceba a mudança
 print(produto2.__dict__)
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 print("Exercício 1 ----------------------------------")
+=======
+print("Exercício 1 ------------------------------------------------------Marca: {carro.marca} | Modelo: {carro.modelo}")
+>>>>>>> 8db86c2 (Venv)
+=======
+print("Exercício 1 ----------------------------------")
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
 
 """
 Identificação de Atributos:
@@ -245,7 +253,15 @@ carro2 = Carro("Chevrolet", "Onix", "2015")
 print(f"Marca: {carro.marca} \nModelo: {carro.modelo} \nAno: {carro.ano}\n")
 print(f"Marca: {carro2.marca} \nModelo: {carro2.modelo} \nAno: {carro2.ano}\n")
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 print("Exercício 2 ------------------------------------------------------------")
+=======
+print("Exercício 2 ------------------------------------------------------(f'Total de pessoas: {Pessoa.total_pessoas}')")
+>>>>>>> 8db86c2 (Venv)
+=======
+print("Exercício 2 ------------------------------------------------------------")
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
 
 """
 Atributos de Classe e Instância:

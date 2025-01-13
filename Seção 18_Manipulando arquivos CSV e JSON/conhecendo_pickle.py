@@ -27,7 +27,8 @@ class Animal:
     def nome(self):
         return self.__nome
 
-    def comer(self):
+    @staticmethod
+    def comer():
         print("Esse animal tem penas.")
 
 
@@ -58,11 +59,12 @@ with open('animais.pickle', 'wb') as arquivo:
 # Ler o arquivo pickle
 with open('animais.pickle', 'rb') as arquivo:
     galinha, cao = pickle.load(arquivo)
-    print(f"A galinha se chama {sacola.nome}")  # PROPERTY
+    print(f"A galinha se chama {galinha.nome}")  # PROPERTY
     galinha.cisca()
-    print(f"O Cão se chama {mosquito.nome}")
+    print(f"O Cão se chama {cao.nome}")
     cao.late()
 
 """
-Parece mágica.
+Esse código escreveu, codificou e depois descodificou os animais instanciados no código. Perceba que não usamos no 
+segundo caso as variaveis dos objetos das classes e nem as funções.
 """

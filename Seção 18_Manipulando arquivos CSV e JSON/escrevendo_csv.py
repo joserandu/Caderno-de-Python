@@ -23,7 +23,11 @@ with open('filmes.csv', 'a', encoding='utf-8', newline='') as arquivo:  # w escr
 
 print("DictWriter ----------------------------------------------------------------------------------------------------")
 
-with open('filmes2.csv', 'a', encoding='utf8', newline='') as arquivo:  # newline pe para não ficar deixando linhas
+"""
+Esse módulo serve para deixar o arquivo csv retornar como dicionário.
+"""
+
+with open('filmes2.csv', 'a', encoding='utf8', newline='') as arquivo:  # newline serve para não ficar deixando linhas
     # em branco no windows
     cabecalho = ['TÍTULO', 'GÊNERO', 'DURAÇÃO']
     escritor_csv = DictWriter(arquivo, fieldnames=cabecalho)
@@ -39,4 +43,6 @@ with open('filmes2.csv', 'a', encoding='utf8', newline='') as arquivo:  # newlin
 """
 Observação: As chaves dos dicionários devem ser iguais as chaves do dicionario que criamos no cabeçalho.
 Nesse segundo código de escrita de dados eu incrementei strip e title para haver uma padronização.
+
+Para melhorar esse código, pode-se tirar a linha que tem a declaração do cabeçalho.
 """

@@ -1,4 +1,8 @@
 """
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
 DEBUGANDO COM PDB
 
 PDB -> Python Debugger
@@ -137,4 +141,38 @@ Desse jeito não dá pra saber o valor de l, n, p, c pelo debugger, só se coloc
 por exemplo.
 
 Mas sempre use nomes significativos, para não dificultar a sua vida, como um num1, num2, etc.
+<<<<<<< HEAD
+=======
+LEVANTANDO OS PRÓPRIOS ERROS COM RAISE
+
+O raise lança exeções e não é uma função, é uma palavra reservada assim como def ou qualquer outra em python.
+Para simplificar, pense no raise como sendo útil para que possamos criar nossas próprias exeções e mensagens de erro.
+
+Forma geral de utilização:
+
+raize TipoDoErro('Mensagem de erro')
+"""
+
+
+def colore(texto, cor):
+    cores = ('verde', 'amarelo', 'azul', 'branco')
+    if type(texto) is not str:
+        raise TypeError(f'O texto precisa ser uma string')
+    if type(cor) is not str:
+        raise TypeError(f'A cor precisa ser uma string')
+    if cor not in cores:
+        raise ValueError(f'A cor precisa ser uma entre: {cores}')
+    print(f'O texto {texto} será impresso na cor {cor}')
+
+
+colore('Geek', 'verde')
+
+"""
+Não estamos tratando o erro, ele apenas acontece.
+
+O raise assim como o retorno, finaliza a função, ou seja, nada após o raise é executado, somente a sua linha.
+O erro é a mesma coisa que exessão.
+>>>>>>> 8db86c2 (Venv)
+=======
+>>>>>>> dc79b85fda33497856b39ea91eb6315d24a04c61
 """
